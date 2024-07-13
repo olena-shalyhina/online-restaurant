@@ -147,6 +147,7 @@ footer {
 
 p.description {
   padding: 10px 20px;
+  color: rgb(190, 236, 239);
 }
 
 @media (max-width: 575px) {
