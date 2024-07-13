@@ -48,9 +48,29 @@ span.navbar-toggler-icon,
 }
 
 .carousel-control-next-icon:hover,
-.carousel-control-prev-icon:hover {
-  width: 60px;
-  height: 60px;
+.carousel-control-next-icon:active {
+  animation: spin_ckw 3s linear 0s infinite;
+}
+@keyframes spin_ckw {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) scale(1.5);
+  }
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-prev-icon:active {
+  animation: spin_с_ckw 3s linear 0s infinite;
+}
+@keyframes spin_с_ckw {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg) scale(1.5);
+  }
 }
 
 /*FOOTER*/
