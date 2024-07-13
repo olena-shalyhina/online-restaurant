@@ -145,6 +145,12 @@ footer {
   z-index: 10;
 }
 
+.description {
+  max-width: 70%;
+  padding-top: 10px;
+  color: rgb(181, 228, 212);
+}
+
 @media (max-width: 575px) {
   .navbar-brand {
     font-size: 2em;
